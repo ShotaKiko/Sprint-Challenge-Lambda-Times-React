@@ -44,14 +44,10 @@ export default class Content extends Component {
     */
 
    return( this.state.selected === 'all' 
-   ? this.state.cards 
-   : this.state.cards.filter(c => c.tab === this.state.selected)
+    ? this.state.cards 
+    : this.state.cards.filter(c => c.tab === this.state.selected)
    ) 
  
-    
-    // return( this.state.selected === 'all' 
-    // ? this.state.cards 
-    // : this.state.cards.tab === this.state.selected) 
   };
   
 
